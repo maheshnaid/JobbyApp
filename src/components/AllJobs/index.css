@@ -1,0 +1,192 @@
+.all-jobs-container {
+  width: 100%;
+  background-color: #000000;
+  padding: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .all-jobs-container {
+    display: flex;
+  }
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 32vh;
+  width: 100%;
+  padding: 22px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+.profile-flex-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 32vh;
+}
+
+.side-bar {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .side-bar {
+    width: 30%;
+  }
+}
+
+.profile-image {
+  height: 60px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #6366f1;
+  font-weight: 500;
+}
+
+.bio {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.employment-type {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.label {
+  font-family: 'Roboto';
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.checkbox-item {
+  margin-bottom: 4px;
+}
+
+.retry-btn {
+  font-family: 'Roboto';
+  height: 40px;
+  width: 90px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.allJobs-container {
+  padding-left: 0px;
+}
+
+.container {
+  width: 80%;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .allJobs-container {
+    margin-left: 24px;
+  }
+}
+
+.jobs-failure-view-container {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+}
+
+.note {
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+
+.jobs-failure-view-image {
+  height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-failure-view-image {
+    height: 350px;
+  }
+
+  .failure-heading {
+    font-size: 28px;
+  }
+}
+
+.loaderContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  height: 38px;
+  width: 90px;
+  background-color: #272727;
+  border: none;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.search-input {
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.search-con {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border: 1px solid gray;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-left: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .search-con {
+    width: 100%;
+  }
+}
+
+.empty-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

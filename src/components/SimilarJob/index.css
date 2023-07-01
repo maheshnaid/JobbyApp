@@ -1,0 +1,16 @@
+.similar-job-item {
+  list-style-type: none;
+}
+
+.similar-job-item-con {
+  background-color: #272727;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item-con {
+    width: 90%;
+  }
+}
